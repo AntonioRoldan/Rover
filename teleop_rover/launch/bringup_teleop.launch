@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<include file="$(find teleop_rover)/launch/serial.launch" />
+	<include file="$(find teleop_rover)/launch/telejoy.launch" />
+	<include file="$(find teleop_rover)/launch/imu_sensor.launch" />
+</launch>

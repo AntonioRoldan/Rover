@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find rover_gazebo)/launch/rover_simulation.launch" />
+	<include file="$(find teleop_rover)/launch/bringup_teleop.launch" />
+	<include file="$(find rover_localization)/launch/map.launch" />
+	<include file="$(find rover_localization)/launch/amcl.launch" />
+	<include file="$(find rover_hardware)/launch/rover_tf.launch" />
+</launch>

@@ -1,0 +1,5 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+<node name="map_server" pkg="map_server" type="map_server"
+args="$(find rover_localization)/map/arena.yaml" />
+</launch>

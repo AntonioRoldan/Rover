@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<node pkg="rover_hardware" type="imuraw2imu_node.py" name="imushit_node"
+	output="screen"/>
+</launch>

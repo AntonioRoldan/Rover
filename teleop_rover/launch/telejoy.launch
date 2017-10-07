@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<node pkg="joy" type="joy_node" name="joy_node"
+	output="screen"/>
+	<node pkg="teleop_rover" type="teleop.py" name="teleop_node"
+	output="screen"/>
+</launch>
